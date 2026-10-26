@@ -52,30 +52,7 @@ Everything lives in one `index.html` file. There is no build step and nothing to
 
 Libraries load from cdnjs, so an internet connection is needed on first load.
 
----
 
-## Getting started
-
-### Open directly
-
-1. Save the file as `index.html`.
-2. Open it in a modern browser (Chrome, Edge, Firefox, Safari). WebGL is required.
-
-### Or serve locally
-
-```bash
-python3 -m http.server 8000
-# open http://localhost:8000
-```
-
-### Deploy to GitHub Pages
-
-1. Push `index.html` to a repository.
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**, then select `main` and `/ (root)`.
-4. Your site will be live at `https://<your-username>.github.io/<repo-name>/`.
-
----
 
 ## How it works
 
